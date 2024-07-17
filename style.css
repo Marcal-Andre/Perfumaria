@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+
+}
+
+.barra-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: white; 
+    text-decoration: none;
+    margin: 25px;
+}
+
+.search-box input{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    background-color: lavender;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h2{
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-container input {
+    flex: 1;
+    margin-right: 10px; /* Espaçamento entre os inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+}
+
+.shapes-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #e1e2e3;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #ebe6e6;
+    margin: 10px;
+}
+
+a{
+
+}
+
+.subscribe-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
