@@ -31,6 +31,7 @@ body{
 }
 
 .menu-lines{
+    display: flex
     
 
 }
